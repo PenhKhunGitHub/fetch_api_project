@@ -1,8 +1,8 @@
-
-import 'package:fetch_api_project/controllers/theme_controller.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+
+import '../controllers/theme_controller.dart';
 
 class SettingScreen extends StatefulWidget {
   const SettingScreen({super.key});

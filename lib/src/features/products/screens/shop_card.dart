@@ -1,7 +1,7 @@
-
-import 'package:fetch_api_project/controllers/shop_card_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+
+import '../controllers/shop_card_controller.dart';
 
 class ShopCardScreen extends StatefulWidget {
   const ShopCardScreen({super.key});

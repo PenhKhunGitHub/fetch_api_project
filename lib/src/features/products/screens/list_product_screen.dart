@@ -1,8 +1,7 @@
-
-import 'package:fetch_api_project/controllers/product_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:badges/badges.dart' as badges;
 import 'package:get/get.dart';
+import '../controllers/product_controller.dart';
 
 class ListProductScreen extends StatefulWidget {
   const ListProductScreen({super.key});

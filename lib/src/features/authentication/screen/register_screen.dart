@@ -1,5 +1,5 @@
 
-import 'package:fetch_api_project/controllers/register_controller.dart';
+import 'package:fetch_api_project/src/features/authentication/controllers/register_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

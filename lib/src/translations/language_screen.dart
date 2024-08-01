@@ -1,6 +1,6 @@
-import 'package:fetch_api_project/controllers/language_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import '../features/products/controllers/language_controller.dart';
 
 class LanguageScreen extends StatefulWidget {
   const LanguageScreen({super.key});
@@ -8,7 +8,9 @@ class LanguageScreen extends StatefulWidget {
   @override
   State<LanguageScreen> createState() => _LanguageScreenState();
 }
+
 final controller = Get.put(LanguageController());
+
 class _LanguageScreenState extends State<LanguageScreen> {
   @override
   Widget build(BuildContext context) {

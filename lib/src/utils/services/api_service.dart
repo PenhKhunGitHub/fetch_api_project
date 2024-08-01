@@ -1,6 +1,6 @@
-
-import 'package:fetch_api_project/models/product_model.dart';
 import 'package:http/http.dart' as http;
+import '../../features/products/models/product_model.dart';
+
 class APIService {
   Future fetchProduct()async{
     try{

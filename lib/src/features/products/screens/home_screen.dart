@@ -1,9 +1,10 @@
 
-import 'package:fetch_api_project/controllers/product_controller.dart';
-import 'package:fetch_api_project/screens/detial_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:badges/badges.dart' as badges;
+
+import '../controllers/product_controller.dart';
+import 'detial_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});

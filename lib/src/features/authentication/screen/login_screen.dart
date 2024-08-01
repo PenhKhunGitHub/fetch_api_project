@@ -1,9 +1,8 @@
-
-import 'package:fetch_api_project/controllers/login_controller.dart';
-import 'package:fetch_api_project/screens/auth/register_screen.dart';
-import 'package:fetch_api_project/screens/main_screen.dart';
+import 'package:fetch_api_project/src/features/authentication/screen/register_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import '../../products/screens/main_screen.dart';
+import '../controllers/login_controller.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});

@@ -1,7 +1,9 @@
 
-import 'package:fetch_api_project/models/product_model.dart';
+
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+
+import '../models/product_model.dart';
 // ignore: must_be_immutable
 class DetailScreen extends StatefulWidget {
   DetailScreen({super.key, required this.pro});
