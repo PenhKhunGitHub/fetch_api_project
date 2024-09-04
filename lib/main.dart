@@ -1,5 +1,3 @@
-import 'package:fetch_api_project/src/features/authentication/screen/register_screen.dart';
-import 'package:fetch_api_project/src/features/products/screens/main_screen.dart';
 import 'package:fetch_api_project/src/routes/app_routes.dart';
 import 'package:fetch_api_project/src/translations/app_translation.dart';
 import 'package:fetch_api_project/src/utils/themes/app_theme.dart';
